@@ -16,7 +16,7 @@ totalSteps += steps;
  days++;
  if(steps>=stepGoal){activeDays++;}
  }
- public int ActiveDays(){return activeDays;}
+ public int activeDays(){return activeDays;}
  public double averageSteps(){
   if(days==0){return 0;}
   return (double)totalSteps/days;}
