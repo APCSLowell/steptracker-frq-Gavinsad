@@ -5,7 +5,7 @@ private int totalSteps;
  private int activeDays;
  private int days;
  private int stepGoal;
- public stepTracker(int num){ 
+ public StepTracker(int num){ 
   stepGoal=num;
   totalSteps =0;
   activeDays=0;
